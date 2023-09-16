@@ -1,0 +1,29 @@
+.popup_regras_n {
+    display: none;
+}
+
+.popup_regras {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup_regras_box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid white 0.1rem;
+    padding: 4rem;
+    font-size: 1.5rem;
+    width: 45rem;
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+    gap: 1rem;
+    text-align: center;
+}
+

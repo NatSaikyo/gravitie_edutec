@@ -1,0 +1,83 @@
+.team {
+    background-image: url(../assets/team_background.svg);
+    background-size: 100%;
+    background-position-y: -20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sections {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-inline: 3rem;
+}
+
+.team_title {
+    font-weight: 700;
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-block: 5rem;
+    margin-top: 7rem;
+}
+
+.creat_sec {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid white 0.2rem;
+    border-radius: 1rem;
+    margin-inline: 1rem;
+    width: 21rem;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+.icones img {
+    width: 10rem;
+    margin-top: 1rem;
+    height: 12rem;
+}
+
+.nomes {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    padding-inline: 2rem;
+    height: 2rem;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-inline: 1rem;
+    margin-bottom: 2rem;
+    height: 7rem;
+}
+
+.funcao {
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.redes_sociais img {
+    width: 2.5rem;
+    height: 7rem;
+    margin-inline: 0.5rem;
+}
+
+.team_menu {
+    padding-top: 1rem;
+}
+
+#menu_team {
+    margin-top: 10.5rem;
+}

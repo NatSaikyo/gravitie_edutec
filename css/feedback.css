@@ -1,0 +1,143 @@
+.feedback {
+    background-image: url(../assets/feedback_background.svg);
+    background-size: 100%;
+    background-position-y: -20vh;
+}
+
+.feedback_title {
+    font-weight: 700;
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-block: 5rem;
+    margin-top: 7rem;
+}
+
+.feedback_main {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback_box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid white 0.2rem;
+    border-radius: 1rem;
+    margin-inline: 1rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 36rem;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(7px);
+    padding-top: 2rem;
+}
+
+.name_input {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 35rem;
+}
+
+.fnome {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.email_input {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    width: 35rem;
+}
+
+.coment_input {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    width: 35rem;
+}
+
+#fnome {
+    background: none;
+    border: none;
+    border-bottom: white solid 0.2rem;
+    padding: 1rem;
+    color: white;
+    width: 35rem;
+}
+
+#fnome::placeholder {
+    color: white;
+}
+
+#femail {
+    background: none;
+    border: none;
+    border-bottom: white solid 0.2rem;
+    padding: 1rem;
+    color: white;
+    width: 35rem;
+
+}
+
+#femail::placeholder {
+    color: white;
+}
+
+#fcoment {
+    background: none;
+    border: none;
+    border-bottom: white solid 0.2rem;
+    padding: 1rem;
+    color: white;
+    width: 35rem;
+}
+
+#fcoment::placeholder {
+    color: white;
+}
+
+.enviar {
+    background-color: white;
+    border: none;
+    font-size: 1.7rem;
+    color: #1F1F1F;
+    padding-block: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px -10px #000000;
+}
+
+.enviar:hover {
+    background-color: #C0C0C0;
+    transition: 0.2s;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+#menu_feedback {
+    margin-top: 10.5rem;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,115 @@
+.star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateZ(-45deg);
+}
+
+.star_span {
+    width: 17rem;
+    height: 0.2rem;
+    display: block;
+    background-image: linear-gradient(to right , #fff , transparent);
+    margin: 5rem;
+    margin-bottom: 15rem;
+    position: relative;
+    animation: shooting 2s linear infinite;
+    opacity: 0;
+    filter: drop-shadow(0 0 6px #3f8aec);
+}
+
+.star_span::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 6px #fff;
+    border-radius: 50px;
+}
+
+.star:nth-child(2) {
+    left: 100px;
+}
+
+.star:nth-child(2) .star_span {
+    animation-delay: 1s;
+}
+
+.star:nth-child(3) {
+    left: 450px;
+}
+
+.star:nth-child(3) .star_span {
+    animation-delay: 2s;
+}
+
+.star:nth-child(4) {
+    left: -150px;
+}
+
+.star:nth-child(4) .star_span {
+    animation-delay: 2.5s;
+}
+
+.star:nth-child(5) {
+    left: -350px;
+}
+
+.star:nth-child(5) .star_span {
+    animation-delay: 2s;
+}
+
+.star:nth-child(6) {
+    left: 550px;
+}
+
+.star:nth-child(6) .star_span {
+    animation-delay: 3s;
+}
+
+.star:nth-child(7) {
+    left: 50px;
+}
+
+.star:nth-child(7) .star_span {
+    animation-delay: 2.5s;
+}
+
+.star:nth-child(8) {
+    left: 750px;
+}
+
+.star:nth-child(8) .star_span {
+    animation-delay: 5.5s;
+}
+
+.star:nth-child(9) {
+    left: -150px;
+}
+
+.star:nth-child(9) .star_span {
+    animation-delay: 6s;
+}
+
+.star:nth-child(10) {
+    left: 250px;
+}
+
+.star:nth-child(10) .star_span {
+    animation-delay: 3s;
+}
+
+@keyframes shooting {
+    0% {
+        transform: translateY(-200px) rotate(-90deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(450px) rotate(-90deg);
+        opacity: 0;
+    }
+}

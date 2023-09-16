@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="html_all" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./popup.js" defer></script>
+    <script src="./quiz.js" defer></script>
+    <title>Quiz</title>
+</head>
+<body class="body_quiz">
+    <header class="header_quiz">
+        <img src="./assets/quiz/quiz1.svg" alt="imagem representativa da progressão do quiz">
+    </header>
+    <main class="questao_main">
+        <section class="caixa_de_texto">
+            <p>Imagine duas naves que viajam no espaço com velocidades altíssimas em uma mesma direção, mas com sentidos opostos. Se cada nave possui velocidade V e a velocidade da luz no vácuo é c, a luz percebida pelo piloto teria velocidade:</p>
+        </section>
+        <section class="buttons">
+            <div class="buttons1">
+                <a class="button1" href="">V + c</a>
+                <a class="button1" href="">c - V</a>
+            </div>
+            <img src="./assets/quiz/quiz_timer.svg" alt="símbolo de relógio">
+            <div class="buttons2">
+                <a class="button2" href="">V - c</a>
+                <a class="button2" href="./quiz2.html">c</a>
+            </div>
+            <div id="popup2" class="popupquiz" onclick="closePopup()">
+            <div>
+        </section>
+    </main>
+    <div id="popup" class="popup_n" onclick="closePopup()">
+        <div class="popup">
+            <div class="popup_buttons">
+                <a href="./content.html">
+                    <button class="popup_button"><p class="popup_p">Conteúdo</p></button>
+                </a>
+                <a href="./quiz_main.html">
+                    <button class="popup_button"><p class="popup_p">Quiz</p></button>
+                </a>
+                <a href="./feedback.html">
+                    <button class="popup_button"><p class="popup_p">Feedback</p></button>
+                </a>
+                <a href="./team.html">
+                    <button class="popup_button"><p class="popup_p">Criadores</p></button>
+                </a>
+                <a href="./index.html">
+                    <img src="./assets/popup_menu.svg" alt="" class="popup_menu">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menu_y" class="menu">
+        <button onclick="abrirPopup()" id="openPopup" class="menu_button" >
+            <img src="./assets/menu.svg" alt="">
+        </button>
+    </div>
+</body>
+</html>
