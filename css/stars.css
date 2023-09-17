@@ -31,7 +31,7 @@
 }
 
 .star:nth-child(2) {
-    left: 100px;
+    left: 10rem;
 }
 
 .star:nth-child(2) .star_span {
@@ -39,7 +39,7 @@
 }
 
 .star:nth-child(3) {
-    left: 450px;
+    left: 45rem;
 }
 
 .star:nth-child(3) .star_span {
@@ -47,7 +47,7 @@
 }
 
 .star:nth-child(4) {
-    left: -150px;
+    left: -15rem;
 }
 
 .star:nth-child(4) .star_span {
@@ -55,7 +55,7 @@
 }
 
 .star:nth-child(5) {
-    left: -350px;
+    left: -35rem;
 }
 
 .star:nth-child(5) .star_span {
@@ -63,7 +63,7 @@
 }
 
 .star:nth-child(6) {
-    left: 550px;
+    left: 55rem;
 }
 
 .star:nth-child(6) .star_span {
@@ -71,7 +71,7 @@
 }
 
 .star:nth-child(7) {
-    left: 50px;
+    left: 5rem;
 }
 
 .star:nth-child(7) .star_span {
@@ -79,7 +79,7 @@
 }
 
 .star:nth-child(8) {
-    left: 750px;
+    left: 75rem;
 }
 
 .star:nth-child(8) .star_span {
@@ -87,7 +87,7 @@
 }
 
 .star:nth-child(9) {
-    left: -150px;
+    left: -15rem;
 }
 
 .star:nth-child(9) .star_span {
@@ -95,7 +95,7 @@
 }
 
 .star:nth-child(10) {
-    left: 250px;
+    left: 25rem;
 }
 
 .star:nth-child(10) .star_span {
