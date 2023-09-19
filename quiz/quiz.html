@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="html_all" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="./quiz.js" defer></script>
+    <script src="../popup.js" defer></script>
+    <title>Quiz</title>
+</head>
+<body class="body_quiz">
+    <header>
+    </header>
+    <main id="main_do_quiz">
+        <section id="aleatorio">
+            <section id="topo">
+                <h1 id="N_pergunta">1/10</h1>
+                <div id="timer">
+                    <p id="countdown"></p>
+                </div>
+            </section>
+
+           <div class="centralizacao">
+            <section class="pergunta">
+                <p class="questao_main">
+                    Quem é o campeão?
+                </p>
+            </section>
+           </div>
+
+            <section class="buttons">
+                <div class="coluna1">
+                    <div class="quiz_buttons buttons1">
+                        <button id="resposta_A" href="#" onclick="responder('A')" class="buttons button1">Sett</button>
+                    </div>
+    
+                    <div class="quiz_buttons buttons1">
+                        <button id="resposta_B" href="#" onclick="responder('B')" class="buttons button1">Jax</button>
+                    </div>
+                </div>
+
+                <div class="coluna2">
+                    <div class="quiz_buttons buttons2">
+                        <button id="resposta_C" href="#" onclick="responder('C')" class="buttons button2">Yone</button>
+                    </div>
+    
+                    <div class="quiz_buttons buttons2">
+                        <button id="resposta_D" href="#" onclick="responder('D')" class="buttons button2">Rammus</button>
+                    </div>
+                    <div id="popupCerto" class="popup">
+                        <div class="popup-conteudo">
+                            <img src="./assets/quiz/certo.svg" alt="">
+                            <h1>Resposta Certa!</h1>
+                            <h3>A Velocidade é igual independente do ponto de vista, o que muda é apenas a visão.</h3>
+                            <button class="button_reset" onclick="reiniciar()">Reiniciar</button>
+                            <button class="button_continue" onclick="continuar()">Continuar</button>
+                        </div>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <div id="popup" class="popup_n" onclick="closePopup()">
+        <div class="popup">
+            <div class="popup_buttons">
+                <a href="../content.html">
+                    <button class="popup_button"><p class="popup_p">Conteúdo</p></button>
+                </a>
+                <a href="../quiz_main.html">
+                    <button class="popup_button"><p class="popup_p">Quiz</p></button>
+                </a>
+                <a href="../feedback.html">
+                    <button class="popup_button"><p class="popup_p">Feedback</p></button>
+                </a>
+                <a href="../calculadora.html">
+                    <button class="popup_button"><p class="popup_p">Calculadora</p></button>
+                </a>
+                <a href="../team.html">
+                    <button class="popup_button"><p class="popup_p">Criadores</p></button>
+                </a>
+                <a href="../index.html">
+                    <img src="../assets/popup_menu.svg" alt="" class="popup_menu">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menu_y" class="menu">
+        <button onclick="abrirPopup()" id="openPopup" class="menu_button" >
+            <img src="../assets/menu.svg" alt="">
+        </button>
+    </div>
+</body>
+</html>

@@ -1,3 +1,9 @@
+#topo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
 .body_quiz {
     background-image: url(../assets/quiz_background.svg);
     background-size: 100%;
@@ -5,22 +11,15 @@
     background-position-y: -10vh;
 }
 
-.quiz_main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 80vh;
-    justify-content: center;
+#N_pergunta{
+    color: #fff;
+    padding: 2rem;
+    padding-right: 45rem;
 }
 
-.quiz_title {
-    color: white;
-    font-weight: 700;
-    font-size: 8rem;
-    text-align: center;
-    width: 50rem;
-    position: fixed;
-    margin-bottom: 10rem;
+#timer{
+    color: #fff;
+    padding: 2rem;
 }
 
 .quiz_buttons {
@@ -28,79 +27,52 @@
     flex-direction: column;
 }
 
-#start {
-    background-color: white;
-    border: none;
-    padding-inline: 7rem;
-    padding-block: 1rem;
-    border-radius: 50px;
-    font-size: 1.6rem;
-    margin-top: 30rem;
-}
-
-#start:hover {
-    background-color: #C0C0C0;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-#rules {
-    background-color: white;
-    border: none;
-    padding-inline: 5.5rem;
-    padding-block: 1rem;
-    border-radius: 50px;
-    margin-top: 1rem;
-    font-size: 1.6rem;
-}
-
-#rules:hover {
-    background-color: #C0C0C0;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.header_quiz {
+.centralizacao{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-}
-
-.header_quiz img {
-    width: 50rem;
 }
 
 .questao_main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2rem;
 }
 
 .pergunta {
+    align-content: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.1);
     border: solid white 0.2rem;
     border-radius: 1rem;
-    width: 40rem;
+    width: 20rem;
     backdrop-filter: blur(7px);
     font-size: 1.3rem;
     padding: 3rem;
-    width: 60rem;
-    height: 20rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 3rem;
-    flex-direction: column;
 }
 
 .buttons {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 1.9rem;
+    flex-direction: row;
+    width: 55rem;
+    justify-content: space-between;
+    margin-inline: 1rem;
 }
+
+#aleatorio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .buttons1 {
     display: flex;
@@ -141,7 +113,7 @@
     padding-block: 3rem;
     border-radius: 50px;
     font-size: 1.6rem;
-    margin-top: 2rem;
+    margin-top: 1.75rem;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -152,24 +124,16 @@
     transition: 0.2s;
 }
 
-.buttons img {
-    width: 15rem;
-    margin-inline: 5rem;
-}
-
-.quiz_final_main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quiz_final_title {
-    color: white;
-    font-weight: 700;
-    font-size: 3rem;
+.coluna1{
     display: flex;
     justify-content: center;
-    margin-top: 8rem;
+    flex-direction: column;
+}
+
+.coluna2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .caixa_results {
@@ -216,9 +180,25 @@
     padding-block: 1rem;
     border-radius: 50px;
     font-size: 1.6rem;
+    border: none;
 }
 
 .restart:hover {
     background-color: #C0C0C0;
     transition: 0.2s;
+}
+
+#qt_acertos{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+    padding: 2rem;
+}
+
+.centralizacao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

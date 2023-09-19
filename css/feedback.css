@@ -10,14 +10,15 @@
     font-size: 4rem;
     display: flex;
     justify-content: center;
-    margin-block: 5rem;
-    margin-top: 7rem;
+    margin-bottom: 5rem;
 }
 
 .feedback_main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .feedback_box {
@@ -87,7 +88,6 @@
     padding: 1rem;
     color: white;
     width: 35rem;
-
 }
 
 #femail::placeholder {

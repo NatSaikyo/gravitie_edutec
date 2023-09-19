@@ -1,0 +1,350 @@
+body{
+    overflow-x: hidden;
+  }
+  
+  .t1 p {
+      width: 50%; 
+      margin: 7rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+    
+    #p1 {
+      margin-left: 55rem; 
+      margin-top: -5rem;
+      height: 12rem;
+      position: relative;
+      z-index: 0;
+    }
+    
+    #p2 {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 13rem;
+      margin-top: 18rem;
+    }
+    
+    .ger, .hist, .conc, .interp, .esp, .temp, .calc, .ext {
+      color: white;
+      text-align: center;
+      margin-top: 7rem;
+    }
+  
+    .einstein {
+      width: 50.375rem; 
+      margin: 19.5rem;
+      position: absolute;
+      margin-top: 25rem; 
+      top: 0;
+      left: 0;
+      z-index: 0;
+      border-radius: 10px;
+    }
+  
+    .lingua {
+      position: absolute;
+      width: 34rem; 
+      border-radius: 10px;
+      z-index: -1;
+      margin-left: 110rem; 
+      margin-top: 125.25rem;
+    }
+  
+    .sistema_solar {
+      width: 14rem; 
+      margin-left: 120rem; 
+      position: absolute;
+      margin-top: 35rem; 
+      top: 0;
+      left: 0;
+    }
+  
+    #p3 {
+      width: 70rem; 
+      height: 20rem;
+      margin: 7rem + 4.375rem; 
+      margin-left: 40rem; 
+    }
+    
+    #p4 {
+      width: 65rem; 
+      margin-left: 55rem;
+      height: 8rem; 
+      margin-top: 3rem; 
+    }
+    
+    .relogio_minimalista {
+      width: 13rem; 
+      margin-left: 115rem;
+      position: absolute;
+      margin-top: 90rem;
+      top: 0;
+      left: 0;
+    }
+  
+    #p5 {
+      position: relative;
+      width: 75rem; 
+      height: 15rem;
+      margin: 7rem;
+      margin-left: 37rem;
+      z-index: 0;
+    }
+    
+    #p6 {
+      width: 72rem;
+      height: 12rem;
+      margin: 7rem;
+      margin-left: 48rem;
+      margin-top: -4.5rem;
+      position: relative;
+      z-index: 2;
+      z-index: 0;
+    }
+    
+    #p7 {
+      width: 54%;
+      margin-left: 45rem;
+      height: 13rem;
+      margin-top: 8rem;
+      position: relative;
+      z-index: 2;
+      z-index: 0;
+    }
+    
+    #p8 {
+      width: 56%;
+      margin-left: 35rem;
+      height: 14rem;
+      margin-top: 6rem;
+      position: relative;
+      z-index: 2;
+      z-index: 0;
+    }
+    
+    .galileu {
+      width: 32.5rem;
+      margin-left: 20rem;
+      position: absolute;
+      margin-top: 188rem;
+      top: 0;
+      left: 0;
+      border-radius: 10px;
+    }
+    
+    #p9 {
+      width: 33rem;
+      height: 10rem;
+      margin-left: 117rem;
+      margin-top: -2.5rem;
+      position: relative;
+    }
+    
+    #p10 {
+      width: 55%;
+      margin-left: 25rem;
+      position: relative;
+      height: 13rem;
+      margin-top: 7rem;
+      z-index: 0;
+    }
+    
+    #p11 {
+      width: 55%;
+      margin-left: 18rem;
+      position: relative;
+      height: 15rem;
+      margin-top: 2.5rem;
+      z-index: -1;
+    }
+    
+    .universo {
+      width: 52.875rem; 
+      margin-left: 110rem;
+      position: absolute;
+      display: block;
+      margin-top: 236rem; 
+      z-index: -2;
+    }
+    
+    .saturno {
+      width: 10rem; 
+      margin-left: 17rem;
+      position: absolute;
+      margin-top: 268rem; 
+      z-index: 0;
+    }
+  
+    #p12 {
+      width: 53%;
+      margin-left: 60rem;
+      position: relative;
+      height: 14rem;
+      margin-top: 7rem;
+    }
+    
+    #p13 {
+      width: 50%;
+      margin-left: 35rem;
+      position: relative;
+      height: 18rem;
+      margin-top: 6rem;
+    }
+    
+    .ampulheta {
+      width: 60.125rem;
+      margin-left: 14rem; 
+      position: absolute;
+      display: block;
+      margin-top: 291rem; 
+    }
+    
+    .ampulheta-minimalista {
+      width: 13rem; 
+      margin-left: 130rem; 
+      position: absolute;
+      display: block;
+      margin-top: 316rem; 
+    }
+    
+    #p14 {
+      width: 43%;
+      margin-left: 48rem;
+      position: relative;
+      height: 25rem;
+      margin-top: 7rem;
+    }
+    
+    #p15 {
+      width: 43%;
+      margin-left: 24rem;
+      position: relative;
+      height: 24rem;
+      margin-top: 5rem;
+      text-align: left;
+    }
+    
+    .emc {
+      width: 53.625rem; 
+      position: absolute;
+      margin-left: 93rem; 
+      margin-top: 377rem; 
+    }
+    
+    .buraco-de-minhoca {
+      width: 11.375rem; 
+      position: absolute;
+      margin-left: 130rem; 
+      margin-top: 407rem; 
+    }
+  
+    .calculadora {
+      width: 9.75rem; 
+      position: absolute;
+      margin-left: 31.6875rem; 
+      margin-top: 375.5rem;
+    }
+  
+    #p16 {
+      width: 19rem;
+      height: 25rem;
+      margin-left: 35rem;
+      margin-top: 15rem;
+      position: relative;
+      z-index: 0;
+    }
+    
+    .interrogaçao {
+      width: 21.125rem;
+      position: absolute;
+      margin-left: 46rem;
+      margin-top: 433rem; 
+      z-index: 0;
+      transform: rotate(2deg); 
+    }
+  
+    #p17 {
+      width: 23rem;
+      height: 11rem;
+      position: absolute;
+      margin-left: 97rem;
+      margin-top: -30rem;
+      z-index: 2;
+      z-index: 0;
+    }
+    
+    #p18 {
+      width: 17rem;
+      height: 10rem;
+      margin-left: 73rem;
+      margin-top: -9rem;
+      margin-bottom: 8rem;
+    }
+    
+    .relatividade {
+      width: 35.75rem; 
+      position: absolute;
+      margin-left: 115rem;
+      margin-top: 433rem; 
+      z-index: 0;
+      border-radius: 10px;
+    }
+    
+    #vid {
+      position: absolute;
+      margin-left: 104.5rem;
+      margin-top: -32rem;
+      color: white;
+    }
+    
+    #font {
+      height: 11rem;
+      margin-left: 70.5rem;
+      margin-top: -11rem;
+      color: white;
+    }
+    
+   
+    
+    .body_content p {
+      text-align: center;
+      backdrop-filter: blur(7px);
+    }
+  
+    .body_content {
+      background-image: url(https://media.discordapp.net/attachments/968989725073502329/1116879184824914013/image.png?width=1042&height=662);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  
+  .t1 p, .t2 p, .t3 p, .t4 p, .t5 p, .t6 p, .t7 p, .t8 p{
+      background-color: rgba(255, 255, 255, 0.69);
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+  .t1, .t2, .t5, .t6, .t7, .t8{
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.4rem;
+  }
+  
+  .t3, .t4 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.4rem;
+  }
+  
+  .ger, .hist, .esp, .temp, .calc, .ext{
+      margin: 10rem;
+      font-size: 5.5rem;
+  }
