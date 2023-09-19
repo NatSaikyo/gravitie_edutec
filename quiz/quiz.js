@@ -69,83 +69,83 @@ let currentQuestion = 1;
             if (currentQuestion == 2 ) {
                 countdown = 20;
                 n_perg .innerText = "2/10";
-                perg.innerText = "Não?";
-                a.innerText = "sim";
-                b.innerText = "Çim";
-                c.innerText = "Cim";
-                d.innerText = "SIM";
+                perg.innerText = "Em que ano foi desenvolvida a Teoria da Relatividade Geral?";
+                a.innerText = "1915";
+                b.innerText = "1930";
+                c.innerText = "1923";
+                d.innerText = "1905";
             }
             else if (currentQuestion == 3 ) {
                 countdown = 20;
                 n_perg .innerText = "3/10";
-                perg.innerText = "Em que arco aparece Kaidou?";
-                a.innerText = "Orange Town";
-                b.innerText = "Dressrosa";
-                c.innerText = "Whole Cake";
-                d.innerText = "Wano";
+                perg.innerText = "A Relatividade Geral substituiu qual teoria da gravidade amplamente aceita?";
+                a.innerText = "Teoria Eletromagnética";
+                b.innerText = "Gravidade Newtoniana";
+                c.innerText = "Teoria do Big Bang";
+                d.innerText = "Teoria das Cordas";
             }
             else if (currentQuestion == 4 ) {
                 countdown = 20;
                 n_perg .innerText = "4/10";
-                perg.innerText = "Qual a Pior matéria da escola?";
-                a.innerText = "Geografia";
-                b.innerText = "Redes";
-                c.innerText = "Banco de Dados";
-                d.innerText = "Sociologia";
+                perg.innerText = "A Relatividade Geral é uma teoria que descreve principalmente o comportamento de objetos:";
+                a.innerText = "Extremamente pequenos";
+                b.innerText = "Com massas planetárias";
+                c.innerText = "Em alta pressão";
+                d.innerText = "Na velocidade da luz";
             }
             else if (currentQuestion == 5 ) {
                 countdown = 20;
                 n_perg .innerText = "5/10";
-                perg.innerText = "Qual foi a melhor temporada do Fortnite?";
-                a.innerText = "Cap2 Temp2";
-                b.innerText = "Cap2 Temp3";
-                c.innerText = "Cap1 Temp9";
-                d.innerText = "Cap4 Temp Atual";
+                perg.innerText = "Existe apenas uma coisa que pode atingir a velocidade máxima permitida no universo, segundo os estudos que temos atualmente, qual é essa coisa?";
+                a.innerText = "A luz";
+                b.innerText = "O Bóson de Higgs";
+                c.innerText = "Os Neutrinos";
+                d.innerText = "Táquions";
             }
             else if (currentQuestion == 6 ) {
                 countdown = 20;
                 n_perg .innerText = "6/10";
-                perg.innerText = "Qual é o capitão do bando do chapéu de palha?";
-                a.innerText = "Zoro";
-                b.innerText = "Robin";
-                c.innerText = "Chopper";
-                d.innerText = "Luffy";
+                perg.innerText = "Qual é o nome da famosa fórmula que surge da Relatividade Geral e descreve a relação entre a energia (E), a massa (m) e a velocidade da luz (c)?";
+                a.innerText = "h/2π";
+                b.innerText = "Bhaskara";
+                c.innerText = "Teorema de Pitágoras";
+                d.innerText = "E=M.C²";
             }
             else if (currentQuestion == 7 ) {
                 countdown = 20;
                 n_perg .innerText = "7/10";
-                perg.innerText = "Qual a mais gostosa? (na minha opinião)";
-                a.innerText = "Reyna";
-                b.innerText = "Sage";
-                c.innerText = "KillJoy";
-                d.innerText = "Skye";
+                perg.innerText = "Relatividade Geral prevê a existência de quê, que é observado como a curvatura do espaço-tempo ao redor de objetos massivos?";
+                a.innerText = "Buracos Negros";
+                b.innerText = "Buracos Brancos";
+                c.innerText = "Buracos de Minhoca";
+                d.innerText = "Supernovas";
             }
             else  if (currentQuestion == 8 ) {
                 countdown = 20;
                 n_perg .innerText = "8/10";
-                perg.innerText = "Ablublé?";
-                a.innerText = "Sim";
-                b.innerText = "Não";
-                c.innerText = "Talvez";
-                d.innerText = "Nenhuma das anteriores";
+                perg.innerText = "Se um objeto for observado em dois pontos de vista diferentes, como ele será analisado?";
+                a.innerText = "Diferentemente";
+                b.innerText = "Do mesmo jeito";
+                c.innerText = "Não pode ser observado";
+                d.innerText = "Ficará invisivel para um";
             }
             else if (currentQuestion == 9 ) {
                 countdown = 20;
                 n_perg .innerText = "9/10";
-                perg.innerText = "Qual jogo é mais gay?";
-                a.innerText = "Minecraft";
-                b.innerText = "League of Legends";
-                c.innerText = "Valorant";
-                d.innerText = "Roblox";
+                perg.innerText = "O que a Relatividade Geral prevê em relação às órbitas dos planetas em torno do Sol?";
+                a.innerText = "Órbitas perfeitamente circulares";
+                b.innerText = "Órbitas elípticas devido à gravidade";
+                c.innerText = "Órbitas muito próximas do Sol";
+                d.innerText = "Órbitas retilíneas devido à inércia";
             }
             else {
                 countdown = 20;
                 n_perg .innerText = "10/10";
-                perg.innerText = "Qual a Capital do Brasil?";
-                a.innerText = "Brasília";
-                b.innerText = "São Paulo";
-                c.innerText = "Rio de Janeiro";
-                d.innerText = "Nenhumas das anteriores";
+                perg.innerText = "A Relatividade Geral prevê que a luz é afetada pela gravidade. Essa afirmação é verdadeira?";
+                a.innerText = "Depende da gravidade";
+                b.innerText = "Não";
+                c.innerText = "Apenas em um espelho";
+                d.innerText = "Em buracos negros";
             }
         }
         function premios(){
