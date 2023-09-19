@@ -1,6 +1,10 @@
 body{
     overflow-x: hidden;
   }
+
+#sla {
+  font-size: 50%;
+}
   
   .t1 p {
       width: 50%; 
